@@ -1,0 +1,51 @@
+<body>
+<h2 style="text-align:center" >Our Products</h2>
+
+<div class="card">
+  <img src="https://i.ibb.co/t3xt5Xx/fejka-artificial-potted-plant-in-outdoor-monstera-0901227-pe687834-s5.jpg"  style="width:100%">
+  <h1>Monstera</h1>
+  <p class="price">YEN 2500 (tax included)</p>
+  <p class="texttext"> Some text about the monstera plant. Wide leaves and minimal care lorem ipsum lorem montserasum. Lorem montserasum lorem onsum.</p>
+  <p><button>Add to Cart</button></p>
+</div>
+</body>
+
+
+body {
+  background: linear-gradient(to bottom right, #b8a399, #fff8e7);
+}
+.card {
+  box-shadow: 0px 10px 20px #1687d933;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: Cursive;
+  background: white;
+}
+.price {
+  color: #231709;
+  font-size: 30px;
+  font-family: Verdana;
+}
+
+.texttext {
+  color: #24344D;
+  font-size: 15px;
+  font-family: Verdana
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #654321;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
