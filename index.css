@@ -58,7 +58,8 @@ body {
   font-size: 23px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #654321;
-  overflow-x: hidden; 
+  overflow: auto; 
+  width: 20%;
 }
 
 .one a:hover {
